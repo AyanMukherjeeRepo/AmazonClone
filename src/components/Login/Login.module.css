@@ -1,0 +1,48 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  height: 100vh;
+}
+.loginsection {
+  width: 350px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  padding: 30px;
+  border: 1px solid grey;
+}
+
+.img {
+  object-fit: contain;
+
+  width: 200px;
+}
+
+input {
+  width: -webkit-fill-available;
+  margin-bottom: 10px;
+}
+button {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+button {
+  background: linear-gradient(to bottom, #eec055, #f0c14b);
+  border: 1px solid #b3b30b;
+  padding: 6px;
+  outline: none;
+  cursor: pointer;
+}
+button:hover {
+  background: linear-gradient(to bottom, #e7b828, #ecb21e);
+}
+button:active {
+  background: linear-gradient(to bottom, #d39309, #ecb21e);
+}

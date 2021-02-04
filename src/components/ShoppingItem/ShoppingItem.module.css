@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  padding: 20px;
+  box-shadow: aliceblue;
+  box-shadow: 2px 2px #1f1c1c5c;
+  margin: 20px;
+}
+
+.img {
+  object-fit: contain;
+  height: 200px;
+  width: 200px;
+}
+.right {
+  padding: 25px;
+}
+.button {
+  background: linear-gradient(to bottom, #eec055, #f0c14b);
+  border: 1px solid #b3b30b;
+  padding: 6px;
+  outline: none;
+  cursor: pointer;
+}
+.button:hover {
+  background: linear-gradient(to bottom, #e7b828, #ecb21e);
+}
+.button:active {
+  background: linear-gradient(to bottom, #d39309, #ecb21e);
+}
